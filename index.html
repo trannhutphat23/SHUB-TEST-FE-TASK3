@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .result-container {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .loading {
+            color: #666;
+            font-style: italic;
+        }
+        .error {
+            color: red;
+        }
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Array Processing Results</h1>
+    
+    <button onclick="startProcess()">Start Processing</button>
+    
+    <div class="result-container">
+        <h3>Input Data:</h3>
+        <pre id="inputData">Waiting for data...</pre>
+        
+        <h3>Results:</h3>
+        <pre id="results">Click 'Start Processing' to begin</pre>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
